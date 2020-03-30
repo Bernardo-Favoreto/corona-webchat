@@ -10,11 +10,12 @@ class App extends React.Component {
     FlexWebChat.MainHeader.defaultProps.showImage = false;
     FlexWebChat.MainContainer.defaultProps.height = "500px"
     FlexWebChat.MainContainer.defaultProps.width = "350px"
-    FlexWebChat.MainHeader.defaultProps.titleText = "Fale com o CoronaChat!"
-    FlexWebChat.EntryPoint.defaultProps.tagline = "Fale com o CoronaChat!"
+    FlexWebChat.MainHeader.defaultProps.titleText = "Fale com o CoronaZap!"
+    FlexWebChat.EntryPoint.defaultProps.tagline = "Fale com o CoronaZap!"
+    FlexWebChat.MessageListItem.defaultProps.avatarUrl = "https://i.ibb.co/4dd52Zn/circle-cropped.png"
     FlexWebChat.MessagingCanvas.defaultProps.memberDisplayOptions = {
       yourDefaultName:"Usuário",
-      theirDefaultName:"CoronaChat",
+      theirDefaultName:"CoronaZap",
       yourFriendlyNameOverride: false,
       theirFriendlyNameOverride: false
     }
@@ -23,8 +24,8 @@ class App extends React.Component {
     const { configuration } = props;
     FlexWebChat.Manager.create(configuration)
       .then(manager => {
-        manager.strings.WelcomeMessage = "Bem-vindo ao CoronaChat :)";
-        manager.strings.PredefinedChatMessageAuthorName = "CoronaChat";
+        manager.strings.WelcomeMessage = "Bem-vindo ao CoronaZap :)";
+        manager.strings.PredefinedChatMessageAuthorName = "CoronaZap";
         manager.strings.PredefinedChatMessageBody = "Pode digitar qualquer coisa pra gente começar a conversar!";
         manager.strings.Today = "HOJE";
         manager.strings.Yesterday = "ONTEM";    
@@ -49,7 +50,7 @@ class App extends React.Component {
     }
 
     if (error) {
-      console.error("Failed to initialize Flex Web Chat", error);
+      console.error("Falha ao inicializar o WebChat", error);
     }
 
     return null;
