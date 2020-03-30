@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.cbe3c0ce.chunk.css",
-  "main.js": "/static/js/main.99c12598.chunk.js",
-  "main.js.map": "/static/js/main.99c12598.chunk.js.map",
-  "static/js/1.af814520.chunk.js": "/static/js/1.af814520.chunk.js",
-  "static/js/1.af814520.chunk.js.map": "/static/js/1.af814520.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.5f583747.js",
-  "runtime~main.js.map": "/static/js/runtime~main.5f583747.js.map",
-  "static/css/main.cbe3c0ce.chunk.css.map": "/static/css/main.cbe3c0ce.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.8505624f5ea6b3a89d76fc532c8b004c.js": "/precache-manifest.8505624f5ea6b3a89d76fc532c8b004c.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/twilio/flex-webchat-ui-sample/static/css/main.ac515e13.chunk.css",
+  "main.js": "/twilio/flex-webchat-ui-sample/static/js/main.bc9288c8.chunk.js",
+  "main.js.map": "/twilio/flex-webchat-ui-sample/static/js/main.bc9288c8.chunk.js.map",
+  "static/js/1.0e8c1913.chunk.js": "/twilio/flex-webchat-ui-sample/static/js/1.0e8c1913.chunk.js",
+  "static/js/1.0e8c1913.chunk.js.map": "/twilio/flex-webchat-ui-sample/static/js/1.0e8c1913.chunk.js.map",
+  "runtime~main.js": "/twilio/flex-webchat-ui-sample/static/js/runtime~main.30df823b.js",
+  "runtime~main.js.map": "/twilio/flex-webchat-ui-sample/static/js/runtime~main.30df823b.js.map",
+  "static/css/main.ac515e13.chunk.css.map": "/twilio/flex-webchat-ui-sample/static/css/main.ac515e13.chunk.css.map",
+  "index.html": "/twilio/flex-webchat-ui-sample/index.html",
+  "precache-manifest.2cf221a865fcdf0e6f899b13ded71eb0.js": "/twilio/flex-webchat-ui-sample/precache-manifest.2cf221a865fcdf0e6f899b13ded71eb0.js",
+  "service-worker.js": "/twilio/flex-webchat-ui-sample/service-worker.js"
 }
