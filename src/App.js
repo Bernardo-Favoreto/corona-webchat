@@ -12,7 +12,7 @@ class App extends React.Component {
     FlexWebChat.MainContainer.defaultProps.width = "350px"
     FlexWebChat.MainHeader.defaultProps.titleText = "Fale com o CoronaZap!"
     FlexWebChat.EntryPoint.defaultProps.tagline = "Fale com o CoronaZap!"
-    FlexWebChat.MessageListItem.defaultProps.avatarUrl = "https://i.ibb.co/4dd52Zn/circle-cropped.png"
+    FlexWebChat.MessageListItem.defaultProps.avatarUrl = "https://i.ibb.co/kgD1JRL/resized-coronazap-icon.png"
     FlexWebChat.MessagingCanvas.defaultProps.memberDisplayOptions = {
       yourDefaultName:"Usuário",
       theirDefaultName:"CoronaZap",
