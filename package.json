@@ -14,6 +14,7 @@
     "react-scripts": "2.0.5"
   },
   "scripts": {
+    "start-dev":"react-app-rewired start",
     "start": "PORT=8080 react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
@@ -36,12 +37,12 @@
   "main": "config-overrides.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twilio/flex-webchat-ui-sample.git"
+    "url": "git+https://github.com/Bernardo-Favoreto/corona-webchat.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/twilio/flex-webchat-ui-sample/issues"
+    "url": "https://github.com/Bernardo-Favoreto/corona-webchat/issues"
   },
-  "homepage": "https://github.com/twilio/flex-webchat-ui-sample#readme"
+  "homepage": "https://github.com/Bernardo-Favoreto/corona-webchat#readme"
 }
