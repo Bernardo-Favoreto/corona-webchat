@@ -41,7 +41,6 @@ class App extends React.Component {
     if (manager) {
       return (
         <div>
-          <div>Testando!</div>
           <FlexWebChat.ContextProvider manager={manager}>
             <FlexWebChat.RootContainer />
           </FlexWebChat.ContextProvider>
